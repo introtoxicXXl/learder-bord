@@ -6,3 +6,56 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body{
+  background-color: #f3f1ff;
+}
+
+.container{
+  background-color: #fff;
+  padding: 33px;
+  width:870px;
+  height: 679px;
+  margin: 0 auto;
+}
+
+nav{
+  width: 1440px;
+  height: 94px;
+  background-color: #562EFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.navbar{
+  width: 870px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo img{
+  width: 40.42px;
+  height: 51px;
+  display: inline-block;
+}
+.nav-logo a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-items ul{
+  display: flex;
+  align-items: center;
+}
+.nav-items ul li{
+  list-style: none;
+  margin-left: 36px;
+}
+.nav-items ul li img{
+  height: 51px;
+  width: 51px;
+}
+.nav-items a{
+  text-decoration: none;
+  color: #fff;
+}
